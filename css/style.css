@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+header{
+    top: 0;
+    position: sticky;
+    border-bottom: 0.5px solid gray;
+    
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+nav a {
+    font-size: 18px;
+}
+
+select{
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.icons{
+    display: flex;
+    gap: 15px;
+}
+
+.icons span{
+    font-size: 17px;
+}
+
+
+.mainBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 80px;
+}
+
+.mainText{
+    max-width: 450px;
+}
+
+.mainText h2{
+    font-size: 30px;
+    line-height: 50px;
+    padding-bottom: 20px;
+}
+
+.mainText p{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.mainText button{
+    border: none;
+    padding: 15px 30px 15px 30px;
+    background: #EE4248;
+}
+
+.welcome{
+    margin-block: 90px;
+    background: #F6F6F6;
+}
+
+.welcomeBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcomeText{
+    max-width: 500px;
+}
+
+.welcomeText h2{
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+
+.welcomeText p {
+    line-height: 25px;
+}
+
+.textP{
+    padding-bottom: 35px;
+}
+
+.prsrheader{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 0 0 45px 0;
+}
+
+.product{
+   max-width: 1330px;
+   margin: 0 auto;
+}
+
+.productBlock{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blocks{
+    width: 280px;
+}
+
+.blocks h3{
+    color: #EE4248;
+    font-size: 23px;
+    font-weight: 500;
+    padding-block: 25px;
+}
+
+.blocks p{
+    line-height: 25px;
+    font-weight: 100;
+}
+
+.blocks button{
+    border: none;
+    border-radius: 5px;
+    background: #EE4248;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    margin-block: 20px;
+}
+
+.footerBlocks {
+    padding-top: 90px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.firstBlock h3{
+    padding-block: 10px;
+}
+
+.firstBlock p{
+    line-height: 25px;
+}
+
+.secondBlock  ul{
+    line-height: 25px;
+
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    background: #EE4248;
+    padding: 15px 0 15px 0;
+    margin: 15px 0 0 0 ;
+}
